@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-python-basic-p203
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/push-pyxis-tenant/appstudio/devfile-sample-python-basic-p203@sha256:6a8d544a18006ab4c2b2a3705c2e71606292842c9ec6e07dc3e4d0540cb60ce9
+        name: container-image
+        resources: {}
+status: {}
